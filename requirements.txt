@@ -1,0 +1,9 @@
+gradio
+transformers
+diffusers
+torch
+torchvision
+accelerate
+matplotlib
+networkx
+Pillow
