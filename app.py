@@ -6,7 +6,9 @@ from PIL import Image
 import matplotlib.pyplot as plt
 import networkx as nx
 from io import BytesIO
-
+# When prompted for a password, use an access token with write permissions.
+# Generate one from your settings: https://huggingface.co/settings/tokens
+git clone https://huggingface.co/spaces/Ujasdubal/UjasDubal
 # Load Models
 classifier = pipeline("zero-shot-classification", model="facebook/bart-large-mnli")
 ner = pipeline("ner", grouped_entities=True)
